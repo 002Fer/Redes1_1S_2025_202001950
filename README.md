@@ -80,7 +80,7 @@ write memory
 ## Pigns entre hosts
 <img src="https://i.ibb.co/XrT8bCnr/Captura-de-pantalla-2025-02-20-182303.png" alt="Captura-de-pantalla-2025-02-20-182303" border="0">
 
-<img src="https://i.ibb.co/ZpF0JHQv/ping2.png" alt="ping2" border="0">
+<img src="https://i.ibb.co/LD35qCcb/ping2.png" alt="ping2" border="0">
 
 <img src="https://i.ibb.co/Hfhmk8k5/ping3.png" alt="ping3" border="0">
 
