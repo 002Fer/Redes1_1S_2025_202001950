@@ -78,7 +78,7 @@ write memory
 <img src="https://i.ibb.co/C3RcXBDG/Captura-de-pantalla-2025-02-20-001223.png" alt="Captura-de-pantalla-2025-02-20-001223" border="0">
 
 ## Pigns entre hosts
-<img src="https://i.ibb.co/XrT8bCnr/Captura-de-pantalla-2025-02-20-182303.png" alt="Captura-de-pantalla-2025-02-20-182303" border="0">
+<img src="https://i.ibb.co/PGGxhKRq/Captura-de-pantalla-2025-02-20-182546.png" alt="Captura-de-pantalla-2025-02-20-182546" border="0">
 
 <img src="https://i.ibb.co/LD35qCcb/ping2.png" alt="ping2" border="0">
 
