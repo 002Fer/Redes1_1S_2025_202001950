@@ -49,7 +49,16 @@ Se realizo la organizacion 30 computadoras para el personal de las diferentes ar
 <img src="https://i.ibb.co/JWc5zMJg/red.png" alt="red" border="0">
 
 ## Comandos usados en para la configuracion de los Switches
--enable
+#Entrar al usuario privilegiado 
+enable
+#Configuracion global
+configure terminal
+no ip domain-lookup
+hostname admin
+
+enable password 202001950
+#guardar la configuracion
+write memory
 
 
 ## Configuracion de las PCSs
