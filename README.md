@@ -1,5 +1,16 @@
-# Redes1_1S_2025_202001950
+# Manual Tecnico
+## Practica 
 
+### Descripcion del problema 
+
+Sigma Studio es un estudio de arquitectura y diseño gráfico reconocido por su enfoque
+innovador en la creación de espacios funcionales y estéticamente atractivos. Gracias a su
+combinación de talento arquitectónico y creatividad digital, la empresa ha trabajado con
+clientes en proyectos de urbanismo, interiorismo y diseño publicitario.
+
+Se realizo la organizacion 30 computadoras para el personal de las diferentes areas del estudio, configurando asi una red local (LAN) en las oficinas de Sigma Studio lo cual permite una comunicacion entre todas las computadoras, se les configuro una direccion IP a cada computadora las cuales estan conectadas a sus swiches correspondientes.
+
+## Tabla de las IP utilizadas
 
 | **Área**                 | **Dispositivo** | **Dirección IP**  |
 |--------------------------|-----------------|------------------|
@@ -33,3 +44,43 @@
 | Dirección General y Proyectos | DGyP4      | 192.168.50.28    |
 | Dirección General y Proyectos | DGyP5      | 192.168.50.29    |
 | Dirección General y Proyectos | DGyP6      | 192.168.50.30    |
+
+### Vista general de las distribucion de la red
+<img src="https://i.ibb.co/JWc5zMJg/red.png" alt="red" border="0">
+
+## Comandos usados en para la configuracion de los Switches
+-enable
+
+
+## Configuracion de las PCSs
+### Area de Recepcion y Administracion
+<img src="https://i.ibb.co/DPshsqhC/Captura-de-pantalla-2025-02-20-001112.png" alt="Captura-de-pantalla-2025-02-20-001112" border="0">
+
+### Area de Renderizado y Modelado 3D
+<img src="https://i.ibb.co/QjfP2MwP/Captura-de-pantalla-2025-02-20-001010.png" alt="Captura-de-pantalla-2025-02-20-001010" border="0">
+
+### Area de Alta direccion 
+<img src="https://i.ibb.co/1f2myGzZ/Captura-de-pantalla-2025-02-20-000843.png" alt="Captura-de-pantalla-2025-02-20-000843" border="0">
+
+### Area de Arquitectura y Urbanismo
+<img src="https://i.ibb.co/Yn0wZvR/Captura-de-pantalla-2025-02-20-000750.png" alt="Captura-de-pantalla-2025-02-20-000750" border="0">
+
+### Area de Diseño Grafico y Publicidad
+<img src="https://i.ibb.co/C3RcXBDG/Captura-de-pantalla-2025-02-20-001223.png" alt="Captura-de-pantalla-2025-02-20-001223" border="0">
+
+## Pigns entre hosts
+<img src="https://i.ibb.co/XrT8bCnr/Captura-de-pantalla-2025-02-20-182303.png" alt="Captura-de-pantalla-2025-02-20-182303" border="0">
+
+<img src="https://i.ibb.co/ZpF0JHQv/ping2.png" alt="ping2" border="0">
+
+<img src="https://i.ibb.co/Hfhmk8k5/ping3.png" alt="ping3" border="0">
+
+<img src="https://i.ibb.co/zWSMzYm0/ping4.png" alt="ping4" border="0">
+
+<img src="https://i.ibb.co/SXk1cJDg/ping5.png" alt="ping5" border="0">
+
+## Captura de paquete ARP
+<img src="https://i.ibb.co/bgDVhZgm/arp.png" alt="arp" border="0">
+
+## Captura de paquete ICMP
+<img src="https://i.ibb.co/GfpXhH6y/icmp.png" alt="icmp" border="0">
