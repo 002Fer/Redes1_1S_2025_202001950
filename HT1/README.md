@@ -29,75 +29,75 @@ Utilizando Cisco Packet Tracer con 4 switches modelo 2960 con las siguientes con
 
 ## Comandos para la configuracion de los swiches
 ### Modo servidor (server)
-enable
-configure terminal
-hostname SERVIDOR
-vtp mode server
-vtp domain 202001950
-vtp password 202001950
-exit
+- enable
+- configure terminal
+- hostname SERVIDOR
+- vtp mode server
+- vtp domain 202001950
+- vtp password 202001950
+- exit
 ### Creación de las VLANS server
 
-enable
-configure terminal
-vlan 10
-name Administracion
-vlan 20
-name Ventas
-vlan 30
-name Invitados
-exit
-wr
+- enable
+- configure terminal
+- vlan 10
+- name Administracion
+- vlan 20
+- name Ventas
+- vlan 30
+- name Invitados
+- exit
+- wr
 ### Modo Cliente (client)
-enable
-configure terminal
-hostname SW_CLIENTE
-vtp mode client
-vtp domain 202001950
-vtp password 202001950
-exit
-wr
+- enable
+- configure terminal
+- hostname SW_CLIENTE
+- vtp mode client
+- vtp domain 202001950
+- vtp password 202001950
+- exit
+- wr
 ### Modo Transparente (transparent)
-enable
-configure terminal
-hostname SW_TRANSPARENTE
-vtp mode transparent
-vtp domain 202001950
-vtp password 202001950
-exit
-wr
+- enable
+- configure terminal
+- hostname SW_TRANSPARENTE
+- vtp mode transparent
+- vtp domain 202001950
+- vtp password 202001950
+- exit
+- wr
 ### Creación de las VLANS Transparente
 
-enable
-configure terminal
-vlan 10
-name Administracion
-vlan 20
-name Ventas
-vlan 30
-name Invitados
-exit
-wr
+- enable
+- configure terminal
+- vlan 10
+- name Administracion
+- vlan 20
+- name Ventas
+- vlan 30
+- name Invitados
+- exit
+- wr
 ### Modo trunk para el servidor y el switch Transparente
-enable
-configure terminal
-interface f0/1
-switchport mode trunk
+- enable
+- configure terminal
+- interface f0/1
+- switchport mode trunk
 
 #Este sirve solo para dejar pasar las vlans que uno necesite en lugar de propagar todas
-switchport trunk allowed vlan 10,20,30
+- switchport trunk allowed vlan 10,20,30
 
-exit
-wr
+- exit
+- wr
 
 ### Modo access para los clientes
-enable
-configure terminal
-interface f0/2
-switchport mode access
-switchport access vlan 10
-exit
-wr
+- enable
+- configure terminal
+- interface f0/2
+- switchport mode access
+- switchport access vlan 10
+- exit
+- wr
 
 ## Protocolo VTP en cada switch
 ### servidor
@@ -125,5 +125,12 @@ wr
 ### Cliente02
 <img src="https://i.ibb.co/4RK6bVnD/Captura-de-pantalla-2025-02-27-234531.png" alt="Captura-de-pantalla-2025-02-27-234531" border="0">
 
+### Ping vlan 10
+<img src="https://i.ibb.co/xKnZJ8NB/Captura-de-pantalla-2025-02-27-235750.png" alt="Captura-de-pantalla-2025-02-27-235750" border="0">
 
+### Ping vlan 20
 
+<img src="https://i.ibb.co/qvX5ptL/Captura-de-pantalla-2025-02-27-235937.png" alt="Captura-de-pantalla-2025-02-27-235937" border="0">
+
+### Ping vlan 30
+<img src="https://i.ibb.co/N2Vj0zfB/Captura-de-pantalla-2025-02-28-000121.png" alt="Captura-de-pantalla-2025-02-28-000121" border="0">
