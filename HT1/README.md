@@ -126,11 +126,11 @@ Utilizando Cisco Packet Tracer con 4 switches modelo 2960 con las siguientes con
 <img src="https://i.ibb.co/4RK6bVnD/Captura-de-pantalla-2025-02-27-234531.png" alt="Captura-de-pantalla-2025-02-27-234531" border="0">
 
 ### Ping vlan 10
-<img src="https://i.ibb.co/xKnZJ8NB/Captura-de-pantalla-2025-02-27-235750.png" alt="Captura-de-pantalla-2025-02-27-235750" border="0">
+<img src="https://i.ibb.co/1GpkVnSm/vlan10.png" alt="vlan10" border="0">
 
 ### Ping vlan 20
 
 <img src="https://i.ibb.co/qvX5ptL/Captura-de-pantalla-2025-02-27-235937.png" alt="Captura-de-pantalla-2025-02-27-235937" border="0">
 
 ### Ping vlan 30
-<img src="https://i.ibb.co/N2Vj0zfB/Captura-de-pantalla-2025-02-28-000121.png" alt="Captura-de-pantalla-2025-02-28-000121" border="0">
+<img src="https://i.ibb.co/dsQ2CTtP/vlan30.png" alt="vlan30" border="0">
