@@ -67,6 +67,15 @@ SERVER1 Vlan 74 | 192.122.0/24  |MASCARA 255.255.255.0
 --------
 ![alt text](./img/CEN.png) 
 
+## CUNDECH
+-----------------------------
+ Subred 1 Vlan 44 Biblioteca |Subred 2 Vlan 14 Estudiantes 
+-----------------------------
+subred 2 Vlan 24 Docentes | subred 4 vlan 34 Seguridad
+--------
+![alt text](./img/cundech.png)
+![alt text](./img/CUNDE1.png)
+
 # BACKBONE
 ![alt text](./img/BACK.png) 
 
