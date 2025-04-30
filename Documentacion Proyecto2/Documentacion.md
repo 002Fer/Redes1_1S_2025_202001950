@@ -102,6 +102,31 @@ SERVER1 Vlan 74 | 192.122.0/24  |MASCARA 255.255.255.0
 | Server1    | 192.121.7.3       |
 | Server2    | 192.122.7.3       |
 
+## CUNDECH
+
+| Área           | IP              | Gateway         |
+|----------------|------------------|------------------|
+| Seguridad 2    | 192.168.7.226    | 192.168.7.225    |
+| Biblioteca 3   | 192.168.7.2      | 192.168.7.1      |
+| Biblioteca 4   | 192.168.7.3      | 192.168.7.1      |
+| Estudiantes 6  | 192.168.7.137    | 192.168.7.129    |
+| Estudiantes 7  | 192.168.7.138    | 192.168.7.129    |
+| Docentes 6     | 192.168.7.196    | 192.168.7.193    |
+| Docentes 7     | 192.168.7.194    | 192.168.7.193    |
+
+---
+
+## CUNOC
+
+| Área           | IP              | Gateway         |
+|----------------|------------------|------------------|
+| Docentes 1     | 172.16.7.168     | 172.16.7.129     |
+| Docentes 2     | 172.16.7.169     | 172.16.7.129     |
+| Seguridad 4    | 172.16.7.196     | 172.16.7.193     |
+| Estudiantes 1  | 172.16.7.5       | 172.16.7.1       |
+| Estudiantes 2  | 172.16.7.7       | 172.16.7.1       |
+
+
 
 ## COMANDOS USADOS PARA LA CONFIGURACION DE LOS DIFERENTES PROTOCOLOS A LOS SWICHES CAPA 2 Y 3 Y ROUTERS
 
