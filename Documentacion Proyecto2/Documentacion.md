@@ -23,6 +23,7 @@ ruteo estático y dinámico para asegurar la conectividad entre los centros.
 
 
 Para poder realizar el subnetin de las diferentes redes se utilizo el metodo de VLSM el cual ayudo a optimizar las direcciones IP y aca abajo queda la tabla de las direcciones IP que se usaron de cada area
+
 ## CUNDECH
 -----------------------------
  Subred 1 Vlan 44 Biblioteca |Subred 2 Vlan 14 Estudiantes 
@@ -67,14 +68,14 @@ SERVER1 Vlan 74 | 192.122.0/24  |MASCARA 255.255.255.0
 --------
 ![alt text](./img/CEN.png) 
 
-## CUNDECH
+## CUNOC
 -----------------------------
  Subred 1 Vlan 44 Biblioteca |Subred 2 Vlan 14 Estudiantes 
 -----------------------------
 subred 2 Vlan 24 Docentes | subred 4 vlan 34 Seguridad
 --------
-![alt text](./img/cundech.png)
-![alt text](./img/CUNDE1.png)
+![alt text](./img/cunoc.png)
+![alt text](./img/CUNOC1.png)
 
 # BACKBONE
 ![alt text](./img/BACK.png) 
